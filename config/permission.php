@@ -1,5 +1,5 @@
 <?php 
 
 return [
-    'middleware' => ['web', 'spatie-permission'],
+    //'middleware' => ['web', 'spatie-permission'],
 ];

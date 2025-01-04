@@ -5,8 +5,7 @@ namespace OliverCharlesLowe\Permission;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Routing\Router;
-use Olive\Permission\Http\Middleware\SpatiePermissionMiddleware;
-use Livewire\Livewire;
+
 use Olive\Permission\Livewire\Counter;
 class PermissionServiceProvider extends ServiceProvider
 {
@@ -22,7 +21,7 @@ class PermissionServiceProvider extends ServiceProvider
         $this->loadViewsFrom(__DIR__ . '/../resources/assets/views', 'permission');
 
         $router = $this->app->make(Router::class);
-        $router->aliasMiddleware('spatie-permission', SpatiePermissionMiddleware::class);
+        
         if ($this->app->runningInConsole()) {
             $this->publishes([
                 __DIR__.'/../resources/assets' => public_path('permission'),
