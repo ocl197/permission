@@ -1,0 +1,25 @@
+{
+    "name": "olive/permission",
+    "autoload": {
+        "psr-4": {
+            "Olive\\Permission\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Olive\\Permission\\PermissionServiceProvider"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "Oliver",
+            "email": "oliverlowe@outlook.com"
+        }
+    ],
+    "require": {
+        "spatie/laravel-permission": "^5.0",
+        "livewire/livewire": "*"
+    }
+}
