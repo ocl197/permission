@@ -1,5 +1,7 @@
 {
     "name": "olive/permission",
+    "description": "A package for managing permissions in Laravel",
+    "version": "1.0.0",
     "autoload": {
         "psr-4": {
             "Olive\\Permission\\": "src/"
