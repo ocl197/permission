@@ -6,7 +6,7 @@ use Illuminate\Support\Facades\Route;
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Routing\Router;
 
-use Olive\Permission\Livewire\Counter;
+use OliverCharlesLowe\Permission\Livewire\Counter;
 class PermissionServiceProvider extends ServiceProvider
 {
     public function boot()
