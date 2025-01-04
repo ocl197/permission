@@ -1,6 +1,6 @@
 <?php
 
-namespace Olive\Permission\Http\Controllers;
+namespace OliverCharlesLowe\Permission\Http\Controllers;
 
 use Illuminate\Routing\Controller;
 

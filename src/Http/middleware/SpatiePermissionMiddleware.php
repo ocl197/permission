@@ -1,6 +1,6 @@
 <?php
 
-namespace Olive\Permission\Http\Middleware;
+namespace OliverCharlesLowe\Permission\Http\Middleware;
 use Closure;
 use Illuminate\Http\Request;
 use Symfony\Component\HttpFoundation\Response;

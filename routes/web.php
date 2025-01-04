@@ -2,8 +2,8 @@
 
 
 
-use Olive\Permission\Http\Controllers\RoleController;
-use Olive\Permission\Http\Controllers\PermissionController;
+use OliverCharlesLowe\Permission\Http\Controllers\RoleController;
+use OliverCharlesLowe\Permission\Http\Controllers\PermissionController;
 use Illuminate\Support\Facades\Route;
 use Olive\Permission\Src\Livewire\Counter;
 use Olive\Permission\Http\Controllers\TaskController;

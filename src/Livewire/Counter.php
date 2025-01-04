@@ -1,6 +1,6 @@
 <?php
 
-namespace Olive\Permission\Livewire;
+namespace OliverCharlesLowe\Permission\Livewire;
 
 use Livewire\Component;
 

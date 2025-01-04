@@ -1,6 +1,6 @@
 <?php
 
-namespace Olive\Permission;
+namespace OliverCharlesLowe\Permission;
 
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\ServiceProvider;

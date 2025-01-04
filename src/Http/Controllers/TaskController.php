@@ -1,9 +1,9 @@
 <?php
 
-namespace Olive\Permission\Http\Controllers;
+namespace OliverCharlesLowe\Permission\Http\Controllers;
 
 use Illuminate\Routing\Controller;
-use Olive\Permission\Models\Task;
+use OliverCharlesLowe\Permission\Models\Task;
 use Illuminate\Http\Request;
 
 class TaskController extends Controller
